@@ -10,8 +10,9 @@
 - Email: kolyaleshiov@gmail.com
 - Phone: +375 29 213-24-31
 
-## Summary
+## About
 
+I'm 21 years old man. I hope to become a cool Frontend developer.
 I don't have commercial development experience, but I have half a year of front-end development on educational projects. Now I'm studying and I want to work as a front-end developer, but in 3-4 years I want to grow to a full-stack specialist. I have good knowledge of HTML, CSS, JS and basic knowledge of React (SPA, JSX, CSS modules, Router).
 
 ## Skills
@@ -45,7 +46,13 @@ Given a lottery ticket (ticket), represented by an array of 2-value arrays, you 
 
 ## Education
 
+- Belarusian State University of Informatics and Radioelectronics, Minsk, Sep 2019 – June 2023
+  - Bachelor's degree, Faculty of engineering and economics
+
 ## Experience
+
+I have experience working only on educational projects at the university and in courses
+[Sertificate of completion JS/FE PRE-SCHOOL 2022G2 (JAVASCRIPT)](https://app.rs.school/certificate/kef63p4z) - The Rolling Scopes School
 
 ## Languages
 
