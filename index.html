@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a href="#summary" class="nav-link">Summary</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#education" class="nav-link">Education</a>
+          </li>
+          <li class="nav-item">
+            <a href="#languages" class="nav-link">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container main-container">
+      <section class="section" id="photo">
+        <img class="photo" src="./photo.jpg" alt="my photo" />
+      </section>
+
+      <section class="section section-intro" id="profile">
+        <div class="intro">
+          <h1 class="section-title">Leshchev Nikolay</h1>
+          <h2>Junior front-end developer</h2>
+        </div>
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <div class="contacts">
+          <ul class="section-list">
+            <li><p>Adress: Minsk, Belarus</p></li>
+            <li>
+              <p>Phone: <a href="tel:+375292132400"></a>+375292132400</p>
+            </li>
+            <li>
+              <p>
+                Email:
+                <a class="contacts-link" href="mailto:kolyaleshiov@gmail.com"
+                  >kolyaleshiov@gmail.com</a
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                GitHub:
+                <a
+                  class="contacts-link"
+                  href="https://github.com/NikolayLeshchev"
+                  >NikolayLeshchev</a
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                Telegram:
+                <a class="contacts-link" href="https://t.me/ne_Nik">@ne_Nik</a>
+              </p>
+            </li>
+            <li><p>Discord: Nikolay(@NikolayLeshchev)</p></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          I'm 21 years old man. I hope to become a cool Frontend developer. I
+          don't have commercial development experience, but I have half a year
+          of front-end development on educational projects. Now I'm studying and
+          I want to work as a front-end developer, but in 3-4 years I want to
+          grow to a full-stack specialist. I have good knowledge of HTML, CSS,
+          JS and basic knowledge of React (SPA, JSX, CSS modules, Router).
+        </p>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Programming languages and technologies:<span>
+              Basic: HTML5, CSS3, JavaScript, React, Java</span
+            >
+          </li>
+          <li class="section-item">
+            Version control:<span> GIT, Github</span>
+          </li>
+          <li class="section-item">Graphics:<span> Figma, Photoshop</span></li>
+        </ul>
+      </section>
+
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <p>
+          Codewars cata: Time to win the lottery! Given a lottery ticket
+          (ticket), represented by an array of 2-value arrays, you must find out
+          if you've won the jackpot.
+        </p>
+        <pre><code>  function bingo(ticket, win){
+    var count = 0;
+    ticket.forEach(game => {
+      if (game[0].includes(String.fromCharCode(game[1]))) {
+        count++;
+      }
+    });
+    return (count >= win) ? "Winner!" : "Loser!";
+  }</code></pre>
+      </section>
+
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <p>
+          <a class="links" href="https://rs.school/js/"
+            >The Rolling Scopes School «JavaScript/Front-end»</a
+          >
+        </p>
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="section-list">
+          <li>
+            <a
+              class="links"
+              href="https://nikolayleshchev.github.io/my_portfolio/travel/"
+              >Travel (The Rolling Scopes School - JS/FE PRE-SCHOOL 2022G2)</a
+            >
+          </li>
+          <li>
+            <a class="links" href="https://nikolayleshchev.github.io/Foxgram/"
+              >Foxgram (Intellect Fox Project)</a
+            >
+          </li>
+          <li>
+            <a
+              class="links"
+              href="https://nikolayleshchev.github.io/Cinema-Booking-Website/"
+              >Cinema Booking Website(Glo Academy Project)</a
+            >
+          </li>
+          <li>
+            <a
+              class="links"
+              href="https://nikolayleshchev.github.io/deliveryfood/"
+              >Delivery Food (Glo Academy Project)</a
+            >
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <p>
+          Belarusian State University of Informatics and Radioelectronics<br />
+          Digital Marketing (2019-2023)
+        </p>
+      </section>
+
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <p>
+          English Intermediate (B1) -
+          <a
+            class="links"
+            href="https://cert.str.by/streamline-certificate/EC272A601C76CC6B7CF3ED927D76E9CC"
+          >
+            Streamline language school certificate</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer class="container footer-container">
+      <a class="links" href="https://github.com/NikolayLeshchev"
+        >GitHub: NikolayLeshchev</a
+      >
+      <p class="year">©2022</p>
+      <a href="https://rs.school/js/">
+        <img class="logo" src="./rs_school_js.svg" alt="logo" />
+      </a>
+    </footer>
+    <script src="./example.js"></script>
+  </body>
+</html>
