@@ -124,12 +124,12 @@
         </p>
         <pre><code>  function bingo(ticket, win){
     var count = 0;
-    ticket.forEach(game => {
+    ticket.forEach(game =&gt; {
       if (game[0].includes(String.fromCharCode(game[1]))) {
         count++;
       }
     });
-    return (count >= win) ? "Winner!" : "Loser!";
+    return (count &gt;= win) ? "Winner!" : "Loser!";
   }</code></pre>
       </section>
 
@@ -202,7 +202,7 @@
       >
       <p class="year">©2022</p>
       <a href="https://rs.school/js/">
-        <img class="logo" src="./rs_school_js.svg" alt="logo" />
+        <img class="logo" src="./rs_school_js.svg" alt="logo" >
       </a>
     </footer>
     <script src="./example.js"></script>
